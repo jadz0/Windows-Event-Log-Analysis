@@ -1,0 +1,36 @@
+========================================
+ Windows Event Log Analysis Results
+========================================
+
+[HIGH] Successful Logon After Failures
+  User: administrator
+  Source IP: 10.10.10.50
+  Prior Failures: 3
+
+[HIGH] Suspicious Process Creation
+  User: student
+  Process: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+  Parent: C:\Windows\explorer.exe
+  Indicator: powershell.exe -enc
+
+[HIGH] Suspicious Process Creation
+  User: student
+  Process: C:\Windows\System32\cmd.exe
+  Parent: C:\Windows\explorer.exe
+  Indicator: cmd.exe /c whoami
+
+[MEDIUM] Repeated Failed Logons
+  User: administrator
+  Source IP: 10.10.10.50
+  Count: 3
+
+[MEDIUM] Repeated Failed Logons
+  User: backupsvc
+  Source IP: 192.168.1.77
+  Count: 3
+
+Summary:
+- High: 3
+- Medium: 2
+- Low: 0
+- Total Findings: 5

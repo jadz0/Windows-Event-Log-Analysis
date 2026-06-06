@@ -1,0 +1,10 @@
+Timestamp,EventID,Computer,TargetUserName,IpAddress,LogonType,NewProcessName,ParentProcessName,CommandLine
+2026-06-06T09:00:01Z,4625,WIN10-LAB,administrator,10.10.10.50,3,,,
+2026-06-06T09:00:15Z,4625,WIN10-LAB,administrator,10.10.10.50,3,,,
+2026-06-06T09:00:31Z,4625,WIN10-LAB,administrator,10.10.10.50,3,,,
+2026-06-06T09:01:04Z,4624,WIN10-LAB,administrator,10.10.10.50,3,,,
+2026-06-06T09:05:20Z,4688,WIN10-LAB,student,,,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,C:\Windows\explorer.exe,powershell.exe -enc SQBFAFgA
+2026-06-06T09:07:44Z,4688,WIN10-LAB,student,,,C:\Windows\System32\cmd.exe,C:\Windows\explorer.exe,cmd.exe /c whoami
+2026-06-06T09:11:10Z,4625,WIN10-LAB,backupsvc,192.168.1.77,3,,,
+2026-06-06T09:11:18Z,4625,WIN10-LAB,backupsvc,192.168.1.77,3,,,
+2026-06-06T09:11:30Z,4625,WIN10-LAB,backupsvc,192.168.1.77,3,,,
